@@ -1,0 +1,79 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "ignore": []
+  },
+  "formatter": {
+    "enabled": true,
+    "indentWidth": 2,
+    "indentStyle": "space",
+    "lineWidth": 119,
+    "formatWithErrors": true
+  },
+  "organizeImports": { "enabled": true },
+  "json": { "parser": { "allowComments": true } },
+  "css": { "formatter": { "enabled": true }, "linter": { "enabled": true }, "parser": { "cssModules": true } },
+  "javascript": {
+    "formatter": {
+      "trailingCommas": "all",
+      "bracketSameLine": true,
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "single",
+      "quoteProperties": "asNeeded",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "asNeeded"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "all": true,
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useAltText": "off",
+        "useMediaCaption": "off"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "off",
+        "useSimplifiedLogicExpression": "off"
+      },
+      "correctness": {
+        "noUndeclaredVariables": "off",
+        "noUnusedVariables": "off",
+        "useJsxKeyInIterable": "off",
+        "useExhaustiveDependencies": "off",
+        "noNodejsModules": "off",
+        "useImportExtensions": "off"
+      },
+      "performance": {
+        "noBarrelFile": "off",
+        "noReExportAll": "off"
+      },
+      "style": {
+        "noParameterAssign": "off",
+        "useNamingConvention": "off",
+        "useSingleCaseStatement": "off",
+        "noNamespace": "off",
+        "noDefaultExport": "off",
+        "noNamespaceImport": "off",
+        "useForOf": "off",
+        "noImplicitBoolean": "off",
+        "useTemplate": "off",
+        "noNegationElse": "off",
+        "useBlockStatements": "off",
+        "noUnusedTemplateLiteral": "off",
+        "useSelfClosingElements": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noAssignInExpressions": "off",
+        "noArrayIndexKey": "off",
+        "noEmptyBlockStatements": "off",
+        "noConsole": "off",
+        "noConsoleLog": "off",
+        "noReactSpecificProps": "off"
+      }
+    }
+  }
+}

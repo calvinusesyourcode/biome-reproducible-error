@@ -1,0 +1,16 @@
+node_modules
+.idea
+.DS_Store
+*.pem
+.env
+*.local*
+ref/
+temp/
+temp*
+*temp*
+ideas/
+*.db*
+*.sqlite*
+*.png
+reference/
+*.offline.*

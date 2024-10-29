@@ -1,0 +1,9 @@
+{
+  "name": "@calvinusesyourcode/biome-reproducible-error",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}

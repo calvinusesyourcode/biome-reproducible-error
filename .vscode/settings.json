@@ -1,0 +1,10 @@
+{
+  "biome.lspBin": "/opt/homebrew/Cellar/biome/1.9.4/bin/biome",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
